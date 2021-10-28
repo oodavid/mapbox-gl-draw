@@ -1,3 +1,5 @@
+// TODO: This should be a "proper" feature - see feature_types/
+
 import * as Constants from '../constants';
 
 /**
@@ -11,6 +13,7 @@ import * as Constants from '../constants';
  * @param {boolean} selected
  * @return {GeoJSON} Point
  */
+
 export default function(parentId, coordinates, path, selected) {
   return {
     type: Constants.geojsonTypes.FEATURE,

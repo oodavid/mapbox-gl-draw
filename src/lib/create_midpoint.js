@@ -1,3 +1,5 @@
+// TODO: This should be a "proper" feature - see feature_types/
+
 import * as Constants from '../constants';
 
 export default function(parent, startVertex, endVertex) {
